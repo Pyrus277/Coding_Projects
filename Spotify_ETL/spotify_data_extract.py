@@ -9,6 +9,7 @@ DATABASE_LOCATION = "sqlite:///my_played_tacks"
 USER_ID = "22spaqn7osucmwakfga7772dq"
 # Apparently this token expires after a few min, so we need to regenerate. How to solve this?
 TOKEN = "" # Insert OAuth token from Spotify 
+
 # protect         
 if __name__ == "__main__":
     
