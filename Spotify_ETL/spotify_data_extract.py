@@ -1,18 +1,14 @@
-import sqlalchemy
 import pandas as pd
-from sqlalchemy.orm import sessionmaker
 import requests
 import json
 from datetime import datetime
 import datetime
-import sqlite3
 
 # define our constants
 DATABASE_LOCATION = "sqlite:///my_played_tacks"
 USER_ID = "22spaqn7osucmwakfga7772dq"
 # Apparently this token expires after a few min, so we need to regenerate. How to solve this?
-TOKEN = "BQA-7hSzvW4EPyqqs6tCz4mcv0f8O6WZwZwZZs57TxeF_c45DAaT99RdnBP70x315gEBYdxz358sprt4v_tmFh52tyF9FkVd_XgIsBKnzcEwEMgJrBSEz3tcWzOTGBQlpXeqC5Y07iS_GO-q0AKQazx2xh3ZdZFV90XN1cgr"
-
+TOKEN = "" # Insert OAuth token from Spotify 
 # protect         
 if __name__ == "__main__":
     
@@ -40,7 +36,8 @@ if __name__ == "__main__":
 
     # Print it out to see what we're working with:
     # print(json.dumps(data, indent=2)) # Checkpoint! We pulled the data.
-    # print(data)
+    #print(data)
+   
     # 'data' has a lot of clutter. For our purposes we only want
     # song name, artist name, played at (time the song was played),
     # and timestamp (the 24 hr period we are looking at). 
@@ -51,16 +48,15 @@ if __name__ == "__main__":
     played_at_list = []
     timestamps = []
     
+    # extract items from the json formatted Spotify response object
     for song in data["items"]:
         song_names.append(song["track"]["name"]) 
         artist_names.append(song["track"]["album"]["artists"][0]["name"])
         played_at_list.append(song["played_at"])
-        timestamps.append(song["played_at"][0:10]) #NO
+        timestamps.append(song["played_at"][0:10]) 
     
     # Now we plug our lists into a dictionary and format the data into
     # a pandas dataframe
-
-
     song_dict = {
         "song_name" : song_names,
         "artist_name" : artist_names,
@@ -68,11 +64,7 @@ if __name__ == "__main__":
         "timestamps" : timestamps
     }
 
-# checkpoint. ^All this works properly
-    print("-----")
-    print(timestamps)
-    print("-----")
-
     song_df = pd.DataFrame(song_dict, columns = ["song_name", "artist_name", "played_at", "timestamps"])
-    print(song_df)
+    
+    print(song_df) # checkpoint
 
