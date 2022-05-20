@@ -1,2 +1,2 @@
-# Coding_Projects
-Personal projects and selected coursework for Python3
+# Projects
+Personal projects and selected coursework.
