@@ -11,7 +11,7 @@ import sqlite3
 DATABASE_LOCATION = "sqlite:///my_played_tacks"
 USER_ID = "22spaqn7osucmwakfga7772dq"
 # Apparently this token expires after a few min, so we need to regenerate. How to solve this?
-TOKEN = "BQA-7hSzvW4EPyqqs6tCz4mcv0f8O6WZwZwZZs57TxeF_c45DAaT99RdnBP70x315gEBYdxz358sprt4v_tmFh52tyF9FkVd_XgIsBKnzcEwEMgJrBSEz3tcWzOTGBQlpXeqC5Y07iS_GO-q0AKQazx2xh3ZdZFV90XN1cgr"
+TOKEN = ""
 
 # protect         
 if __name__ == "__main__":
