@@ -8,7 +8,6 @@ Libraries used: requests, json.
 Requires an OMDB api key to run-- see line 45 in the program.
 
 
-
 This takes as input one or more movie titles from the user and returns a list of 
 five recommended titles, ordered by their respective Rotten Tomatoes score. 
 
