@@ -8,9 +8,9 @@ import datetime
 DATABASE_LOCATION = "sqlite:///my_played_tacks"
 USER_ID = "22spaqn7osucmwakfga7772dq"
 # Apparently this token expires after a few min, so we need to regenerate. How to solve this?
-TOKEN = "" # Insert OAuth token from Spotify 
+TOKEN = "BQDqJo9-H097aPASSqglrb7OVk8WL9-Aoewl8enVj8KLRlVeUKKLQa5WEWvU5rDO_-32h8AKluLafjOvPt6hcH6db_yTTrjfjUiWFhZx6h0D9-n5BPz9c3-pbN48cfuz6Dal0KMm2TVRNzIhhh9YSeVTcQn_sDRG73mjL5e1" # insert spotify key here
 
-# protect         
+# protect        
 if __name__ == "__main__":
     
 # Extract recent listening data from the spotify API
