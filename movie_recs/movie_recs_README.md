@@ -12,9 +12,9 @@ This takes as input one or more movie titles from the user and returns a list of
 five recommended titles, ordered by their respective Rotten Tomatoes score. 
 
 Specifically, the program takes the movies inputted by the user and then feeds them into the
-TasteDive API to get five similar titles for each one as a JSON object. 
-The program then parses this object and picks out just the titles and makes a list
-of them.
+TasteDive API. For each movie title given by the user, TasteDive returns five similar titles along
+a bunch of other info. The program then parses this object and picks out just the titles and makes 
+a list of them.
 Next, it feeds that list into the OMDB API which returns info on each title, including the
 Rotten Tomatoes score, packaged in JSON.
 Finally, the program parses this object, sorts all the movies by their RT scores, and returns 
