@@ -2,6 +2,16 @@
 Personal projects and selected coursework.   
 See individual folder README files for more detail!
 
+**VineClime**  
+This is a data science project where I take a look at the California wine industry over the past 40 years, with a focus on the effects of climate change.   
+It gathers wine production data from Kaggle, climate data from NASA, and tens of thousands of wine reviews from WineEnthusiast. 
+This project identifies the most significantly changing climate features experienced by the California wine region and the counties whose production is most sensitive to these changes in terms of overall production volume and value. It factors these features into a time series model to forecast the wine production at the county level. The model is packaged in a convenient Streamlit webapp so the user can select which variables to plug in.   
+The project also does an NLP (natural language processing) analysis on decades of wine review, and correlates flavor descriptors with weather features to see which climate features relate to the actual flavors consumers ascribe to wines.   
+My intention was to provide insights to wine professionals across the board-- growers, producers, wine crafters, curators, and servers.   
+    
+All the data wrangling, EDA, and modeling was done with **Python**, making extensive use of the **Pandas** libray. **Matplotlib** and **Seaborn** were used for most of the visualizations. **Statsmodels** and **sklearn** were used for some statistical analysis, and **Prophet** was used for the **time series forecasting**. 
+  
+
 **Spotify_ETL**  
 A data engineering follow-along project from Karolina Sowinska's Youtube channel.
 This is an ETL project in Python that gathers my Spotify listening history
