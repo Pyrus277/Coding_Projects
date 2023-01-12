@@ -3,7 +3,7 @@ Personal projects and selected coursework.
 See individual folder README files for more detail!
 
 **VineClime**  
-This is a data science project where I take a look at the California wine industry over the past 40 years, with a focus on the effects of climate change.   
+This is a data science capstone project where I take a look at the California wine industry over the past 40 years, with a focus on the effects of climate change.   
 It gathers wine production data from Kaggle, climate data from NASA, and tens of thousands of wine reviews from WineEnthusiast. 
 This project identifies the most significantly changing climate features experienced by the California wine region and the counties whose production is most sensitive to these changes in terms of overall production volume and value. It factors these features into a time series model to forecast the wine production at the county level. The model is packaged in a convenient Streamlit webapp so the user can select which variables to plug in.   
 The project also does an NLP (natural language processing) analysis on decades of wine review, and correlates flavor descriptors with weather features to see which climate features relate to the actual flavors consumers ascribe to wines.   
