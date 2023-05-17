@@ -1,7 +1,9 @@
-Perry Fox
-pyrus277gmail.com
-VineClime - Capstone Project
-December 12, 2022
+pyrus277gmail.com  
+Capstone Project     
+Updated 1/11/23  
+
+VineClime is a project that models California wine production and flavor characteristics along with climate change in California wine producing regions.  Among its abilities, VineClime can identify the counties most sensitive to changing climate features and factors these features into a predictive time series models.  It also uses 25+ years of wine review text data and Natural Language Processing to see how climate features relate to the actual flavors consumers ascribe to wines.
+
 
 #### The main project files are:  
 - `1_Wrangling.ipynb`  
