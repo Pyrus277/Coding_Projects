@@ -10,7 +10,10 @@ The project also does an NLP (natural language processing) analysis on decades o
 My intention was to provide insights to wine professionals across the board-- growers, producers, wine crafters, curators, and servers.   
     
 All the data wrangling, EDA, and modeling was done with **Python**, making extensive use of the **Pandas** libray. **Matplotlib** and **Seaborn** were used for most of the visualizations. **Statsmodels** and **sklearn** were used for some statistical analysis, and **Prophet** was used for the **time series forecasting**. 
-  
+
+**FCC_data_analysis**
+A series of five projects for the Data Analysis with Python on freeCodeCamp. Projects were originally developed and unit tested on replit.
+See README in the directory for details on each.
 
 **Spotify_ETL**  
 A data engineering follow-along project from Karolina Sowinska's Youtube channel.
