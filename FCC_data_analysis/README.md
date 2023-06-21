@@ -13,7 +13,7 @@ https://replit.com/@Pyrus277
 - Library used: Panads
 
 #### 3. Demographic Data Analyzer
-- Libraries used: NumPy, Pandas, matploylib, Seaborn
+- Libraries used: NumPy, Pandas, matplotlib, Seaborn
 
 #### 4. Page View Time Series Visualizer
 - Libraries used: 
