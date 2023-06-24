@@ -16,7 +16,7 @@ https://replit.com/@Pyrus277
 - Libraries used: NumPy, Pandas, matplotlib, Seaborn
 
 #### 4. Page View Time Series Visualizer
-- Libraries used: 
+- Libraries used: NumPy, Pandas, matplotlib, matplotlib.dates, Seaborn, datetime
 
 #### 5. Sea Level Predictor
 - Libraties used: 
