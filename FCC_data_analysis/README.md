@@ -19,4 +19,4 @@ https://replit.com/@Pyrus277
 - Libraries used: NumPy, Pandas, matplotlib, matplotlib.dates, Seaborn, datetime
 
 #### 5. Sea Level Predictor
-- Libraties used: 
+- Libraties used: Pandas, matplotlib, scipy
