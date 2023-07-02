@@ -5,6 +5,7 @@ Score for this challenge is simple accuracy-- how many survivor statuses did you
 
 The code is based on the official Kaggle walkthrough, but with my own commenting, digressions, and additions such as hypterparameter optimization.
 
+! Currently in progress !
 
 ## Data:
 The data for this challenge can be found https://www.kaggle.com/competitions/titanic/data
