@@ -2,7 +2,23 @@
 Personal projects and selected coursework.   
 See individual folder README files for more detail!
 
-**VineClime**  
+## sales_data_analyis  
+Small project that looks at time series sales data. Touches on some key areas of data analysis:  
+#### Pandas Functions:
+-`pd.read_csv()` + `pd.concat` to staple together a bunch of csv data and get it indexed appropriately for easy time series manipulations.    
+-`.resample()` To downsample data to daily and also 6-hour dayparts, and aggregate across columns with custom lambda functions.  
+-`.groupby()` Ever useful function, used here to find which part of the day over the timeframe represented accounts for greatest sales.  
+-`.diff()` + `nlargest()` to see the greatest daily change.  
+#### Hypothesis Testing
+-`stats.ttest_inf()` To compare means of time series data between different periods.  
+-`stats.ttest_1samp()` To determine the statistical significance of a pronounced difference.  
+-p-value interpretation.
+- ...Scipy makes things almost too easy--hours of youtube stats videos reduced down to a single line of code. Use these tools carefully. 
+#### Data Visualization
+-Rocked some subplots, and plenty of different cosmetic functions to make the plots look like how I wanted them to.  
+-ax.twinx() to create a second, right side y-axis to overlay two trends of different numeric ranges over the same x-axis time period to see how the trends relate.
+
+## VineClime  
 This is a data science capstone project where I take a look at the California wine industry over the past 40 years, with a focus on the effects of climate change.   
 It gathers wine production data from Kaggle, climate data from NASA, and tens of thousands of wine reviews from WineEnthusiast. 
 This project identifies the most significantly changing climate features experienced by the California wine region and the counties whose production is most sensitive to these changes in terms of overall production volume and value. It factors these features into a time series model to forecast the wine production at the county level. The model is packaged in a convenient Streamlit webapp so the user can select which variables to plug in.   
@@ -11,30 +27,30 @@ My intention was to provide insights to wine professionals across the board-- gr
     
 All the data wrangling, EDA, and modeling was done with **Python**, making extensive use of the **Pandas** libray. **Matplotlib** and **Seaborn** were used for most of the visualizations. **Statsmodels** and **sklearn** were used for some statistical analysis, and **Prophet** was used for the **time series forecasting**. 
 
-**FCC_data_analysis**  
+## FCC_data_analysis  
 A series of five projects for the Data Analysis with Python on freeCodeCamp. Projects were originally developed and unit tested on replit.
 See README in the directory for details on each.
 
-**Spotify_ETL**  
+## Spotify_ETL  
 A data engineering follow-along project from Karolina Sowinska's Youtube channel.
 This is an ETL project in Python that gathers my Spotify listening history
 using the Spotify API, picks out relevant bits of information, and stores them 
 in a database.
 
-**digital_photo_contact_sheet**  
+## digital_photo_contact_sheet  
 A pretty rigorous exercise using the PIL library in Python where I take
 a PNG image, apply various filters to it, and make a 3x3 tiled contact
 sheet showing the how the image with the different filters side by side.
 
-**flight_booking**  
+## flight_booking
 A simple SQL database project where I look at a flight booking
 receipt and reverse-engineer a database schema that could be used
 in automatically producing such a document. 
 
-**movie_recs**  
+## movie_recs  
 A Python app that makes use of a few APIs and takes movie title input
 from the user to produce a list of recommended movies.
 
-**wheel_of_fortune**  
+## wheel_of_fortune  
 A text-based Wheel of Fortune game. Makes particular use of the class
 and inheritance functionality of Python.
