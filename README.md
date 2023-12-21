@@ -6,7 +6,7 @@ See individual folder README files for more detail!
 Small project that looks at time series sales data. Touches on some key areas of data analysis including:  
 #### - Pandas Functions - For wranging data, resampling, and grouping
 #### - Hypothesis Testing - Means testing with scipy.stats, p-value interpretation
-#### - Data Visualization - Use of subplots and different visualization types to reveal insights.
+#### - Data Visualization - Use of subplots and different visualization types to reveal insights
 
 
 ## VineClime  
