@@ -2,6 +2,12 @@
 Personal projects and selected coursework.   
 See individual folder README files for more detail!
 
+## river_elevation_model
+GIS project that analyzes USGS lidar raster data - Currently in progress 
+
+## insights_from_supply_and_demand
+Rideshare time series data analysis -- Currently in progress
+
 ## sales_data_analyis  
 Small project that looks at time series sales data. Touches on some key areas of data analysis including:  
 #### - Pandas Functions - For wranging data, resampling, and grouping
