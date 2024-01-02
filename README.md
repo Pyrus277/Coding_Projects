@@ -2,7 +2,7 @@
 Personal projects and selected coursework.   
 See individual folder README files for more detail!
 
-## river_elevation_model
+## gis_river_elevation_model
 GIS project that analyzes USGS lidar raster data - Currently in progress 
 
 ## insights_from_supply_and_demand
