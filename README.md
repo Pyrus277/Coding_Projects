@@ -2,7 +2,7 @@
 Personal projects and selected coursework.   
 See individual folder README files for more detail!
 
-## google automations
+## google_automations
 A collection of files that make use of several Google APIs for automation purposes. Included are actions with:  
 Gmail API, Maps Places API, Drive API, Sheets API, and Forms API
 
